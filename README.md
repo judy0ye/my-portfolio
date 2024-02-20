@@ -5,6 +5,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/Judy-blue?style=for-the-badge&logo=LinkedIn&logoColor=black)](https://www.linkedin.com/in/judy0ye)
 
+[DEPLOYED LINK](https://judyye.vercel.app/)
 </div>
 
 ## 📝 Description
