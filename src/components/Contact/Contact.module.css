@@ -1,0 +1,15 @@
+.svg {
+  transform: translate(80px, 20px);
+  
+  @media (max-width: $mantine-breakpoint-xs) {
+    transform: translate(40px, 18px);
+    width: rem(40);
+    height: rem(40);
+  }; 
+
+  @media (max-width: 275px) {
+    transform: translate(20px, 10px);
+    width: rem(40);
+    height: rem(40);
+  }; 
+}

@@ -1,0 +1,53 @@
+.image {
+  @media (max-width: $mantine-breakpoint-sm) {
+    height: 360px;
+  };
+  
+  @media (max-width: $mantine-breakpoint-xs) {
+    height: 320px;
+  };
+
+  @media (max-width: 300) {
+    height: 290px;
+  };
+}
+
+.control {
+  @media (max-width: $mantine-breakpoint-sm) {
+    height: 10px
+  }; 
+}
+
+.container {
+   @media (max-width: $mantine-breakpoint-xs) {
+    width: 100vw;
+    padding: 0;
+  }; 
+}
+
+.control {
+  &[data-inactive] {
+    opacity: 0;
+    cursor: default;
+  }
+}
+
+.cardSection {
+  @media (max-width: $mantine-breakpoint-xs) {
+    max-height: 320px;
+  }; 
+}
+
+.icon {
+  width: rem(25);
+  height: rem(25);
+  
+  @media (max-width: $mantine-breakpoint-xs) {
+    width: rem(20);
+    height: rem(20);
+  }; 
+  
+  @media (max-width: 275px) {
+    transform: translateY(-100px);
+  }; 
+}
