@@ -16,6 +16,7 @@ export default function Footer() {
             c={"black"}
             href="https://github.com/judy0ye"
             target="_blank"
+            rel="noopener noreferrer"
             aria-label="link to Judy Ye's GitHub"
           >
             <IconBrandGithub className={classes.icon} />
@@ -24,6 +25,7 @@ export default function Footer() {
             c={"black"}
             href="https://www.linkedin.com/in/judy0ye/"
             target="_blank"
+            rel="noopener noreferrer"
             aria-label="link to Judy Ye's LinkedIn"
           >
             <IconBrandLinkedin className={classes.icon} />
@@ -32,6 +34,7 @@ export default function Footer() {
             c={"black"}
             href="mailto:judyy.ye@gmail.com"
             target="_blank"
+            rel="noopener noreferrer"
             aria-label="link to Judy Ye's e-mail"
           >
             <IconMail className={classes.icon} />

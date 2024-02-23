@@ -4,7 +4,7 @@ export interface CardProps {
   title: string;
   description: string;
   tech: string[];
-  repo: string;
+  repo?: string;
   beRepo?: string;
   deploy: string;
 }
