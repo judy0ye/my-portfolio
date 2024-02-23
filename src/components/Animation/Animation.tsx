@@ -10,7 +10,7 @@ export default function Animation() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrollFactor = 0.9;
+      const scrollFactor = 0.8;
       const newTranslateY = scroll.y * scrollFactor;
       setTranslateY(newTranslateY);
     };
@@ -28,9 +28,9 @@ export default function Animation() {
         <Title order={1}>Hello, I&apos;m Judy Ye</Title>
       </VisuallyHidden>
       <svg
-        width="1281"
+        width="1310"
         height="740"
-        viewBox="0 0 1281 780"
+        viewBox="0 0 1400 780"
         fill="none"
         className={classes.svg}
       >

@@ -1,38 +1,13 @@
 .svg {
-  max-width: 1400px;
+  max-width: 1440px;
 
   @media (max-width: $mantine-breakpoint-xl) {
-    width: 1200px;
+    width: 1300px;
   };
 
-   @media (max-width: $mantine-breakpoint-lg) {
-    width: 992px;
-    height: 100svh;
-  };
-
-  @media (max-width: $mantine-breakpoint-md) {
-    width: 768px;
-  };
-
-  @media (max-width: $mantine-breakpoint-sm) {
-   width: 560px;
-  };
-
-  @media (max-width: $mantine-breakpoint-xs) {
+  @media (max-width: $mantine-breakpoint-lg) {
     width: 100vw;
-  } 
-}
-
-.platformTopGroup {
-  @media (max-width: $mantine-breakpoint-xs) {
-    transform: translate(-17.5%, -14.3%);
-   };
-}
-
-.platform {
-  @media (max-width: $mantine-breakpoint-xs) {
-    transform: translate(-17.5%, -14.3%)
-   };
+  };
 }
 
 .hello {
@@ -91,17 +66,17 @@
 }
 
 .platformBottom {
-  transform: translateY(-200%);
+  transform: translateY(-350%);
   animation: slide-down 2s ease forwards 2.7s;
 }
 
 .platformMiddle {
-  transform: translateY(-200%);
+  transform: translateY(-350%);
   animation: slide-down 2s ease forwards 3s;
 }
 
 .platformTop {
-  transform: translateY(-200%);
+  transform: translateY(-350%);
   animation: slide-down 2s ease forwards 3.3s;
 }
 
