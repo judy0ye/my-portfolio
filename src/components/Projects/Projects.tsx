@@ -21,6 +21,26 @@ import { CardProps } from "./Projects.types";
 
 const data = [
   {
+    image: "/GAAD.png",
+    alt: "Global Accessibility Awareness Day website screenshot",
+    title: "Currently working on: Global Accessibility Awareness Day",
+    description:
+      "Assiting in the migration of the Global Accessibility Awareness Day website from WordPress to NextJS.",
+    tech: [
+      "NextJs",
+      "TypeScript",
+      "tRPC",
+      "Prisma",
+      "NodeJs",
+      "Jest",
+      "Husky",
+      "Mantine",
+      "GitHub Actions",
+      "Linear",
+    ],
+    deploy: "https://accessibility.day/",
+  },
+  {
     image: "/thrifty-pet-cropped.gif",
     alt: "thrifty pet application gif",
     title: "Thrifty Pet",
@@ -131,18 +151,23 @@ function Cards({
             </AccordionControl>
             <Accordion.Panel pt={1}>
               {" "}
-              <Anchor
-                href={repo}
-                fz={{ base: "11px", xs: "16px" }}
-                c={"white"}
-                target="_blank"
-                underline="never"
-                bg="#175A8E"
-                p={6}
-                style={{ borderRadius: "8px", justifyContent: "center" }}
-              >
-                Frontend Repo
-              </Anchor>
+              {repo ? (
+                <Anchor
+                  href={repo}
+                  fz={{ base: "11px", xs: "16px" }}
+                  c={"white"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  underline="never"
+                  bg="#175A8E"
+                  p={6}
+                  style={{ borderRadius: "8px", justifyContent: "center" }}
+                >
+                  Frontend Repo
+                </Anchor>
+              ) : (
+                <Text>In progess</Text>
+              )}
             </Accordion.Panel>
             <Accordion.Panel>
               {" "}
@@ -152,6 +177,7 @@ function Cards({
                   fz={{ base: "11px", xs: "16px" }}
                   c={"white"}
                   target="_blank"
+                  rel="noopener noreferrer"
                   underline="never"
                   bg="#175A8E"
                   p={6}
@@ -168,6 +194,7 @@ function Cards({
           fz={{ base: "11px", xs: "16px" }}
           c={"white"}
           target="_blank"
+          rel="noopener noreferrer"
           underline="never"
           bg="#175A8E"
           mt="3px"
