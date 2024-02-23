@@ -18,6 +18,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="link to Judy Ye's GitHub"
+            px={5}
           >
             <IconBrandGithub className={classes.icon} />
           </Anchor>
@@ -27,6 +28,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="link to Judy Ye's LinkedIn"
+            px={5}
           >
             <IconBrandLinkedin className={classes.icon} />
           </Anchor>
@@ -36,6 +38,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             aria-label="link to Judy Ye's e-mail"
+            px={5}
           >
             <IconMail className={classes.icon} />
           </Anchor>
