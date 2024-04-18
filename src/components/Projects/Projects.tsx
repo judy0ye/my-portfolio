@@ -21,6 +21,23 @@ import { CardProps } from "./Projects.types";
 
 const data = [
   {
+    image: "/the-froth-cafe.gif",
+    alt: "The froth cafe e-commerce application gif",
+    title: "The Froth Cafe",
+    description:
+      "The Froth Cafe is a fake e-commerce cafe website that allows users to browse menus, place orders, and create accounts securely. The project serves as a full-stack application, utilizing Supabase's PostgreSQL database and authentication along with NextJs app router.",
+    tech: [
+      "NextJs",
+      "TypeScript",
+      "Headless UI",
+      "Radix UI",
+      "Supabase",
+      "Tailwind",
+    ],
+    repo: "https://github.com/Jwensloff/JSJStorefront",
+    deploy: "https://jsj-storefront.vercel.app/",
+  },
+  {
     image: "/GAAD.png",
     alt: "Global Accessibility Awareness Day website screenshot",
     title: "Currently working on: Global Accessibility Awareness Day",
