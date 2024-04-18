@@ -34,8 +34,8 @@ const data = [
       "Supabase",
       "Tailwind",
     ],
-    repo: "https://github.com/Jwensloff/JSJStorefront",
-    deploy: "https://jsj-storefront.vercel.app/",
+    repo: "https://github.com/judy0ye/the-froth-cafe",
+    deploy: "https://the-froth-cafe.vercel.app/",
   },
   {
     image: "/GAAD.png",
