@@ -6,6 +6,8 @@ import "@mantine/carousel/styles.css";
 
 import { ColorSchemeScript, MantineProvider } from "@mantine/core";
 import MainLayout from "@/components/MainLayout/MainLayout";
+import { Analytics } from "@vercel/analytics/react";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -40,6 +42,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <MantineProvider>
           <MainLayout>{children}</MainLayout>
+          <Analytics />
         </MantineProvider>
       </body>
     </html>
