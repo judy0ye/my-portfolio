@@ -62,7 +62,7 @@ const data = [
     alt: "thrifty pet application gif",
     title: "Thrifty Pet",
     description:
-      "Thrifty Pet is a web application that tracks Chewy product prices over time and show their lowest, highest, and average prices. Users can add, edit, and delete notes. All data is saved to a NoSQL database.",
+      "Thrifty Pet tracks Chewy product prices over time and show their lowest, highest, and average prices. Users can add, edit, and delete notes. All data is saved to a NoSQL database. (The current product prices are not up to date because I commented out the cron job that was scheduled to run every day to scrape the data.)",
     tech: ["NextJs", "TypeScript", "Cypress", "NodeJS", "ExpressJs", "MongoDB"],
     repo: "https://github.com/judy0ye/thrifty-pet-fe",
     beRepo: "https://github.com/judy0ye/thrifty-pet-be",
