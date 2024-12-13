@@ -68,23 +68,23 @@ const data = [
     beRepo: "https://github.com/judy0ye/thrifty-pet-be",
     deploy: "https://thrifty-pet-fe.vercel.app/",
   },
-  {
-    image: "/checkout.gif",
-    alt: "JSJ Storefront e-commerce application gif",
-    title: "JSJ Storefront",
-    description:
-      "JSJ is a fake e-commerce website that allows users to browse and search products. They could also add, remove, and change the quanitity of products in their shopping cart.",
-    tech: [
-      "NextJs",
-      "TypeScript",
-      "Cypress",
-      "Supabase",
-      "Tailwind",
-      "Github Actions",
-    ],
-    repo: "https://github.com/Jwensloff/JSJStorefront",
-    deploy: "https://jsj-storefront.vercel.app/",
-  },
+  // {
+  //   image: "/checkout.gif",
+  //   alt: "JSJ Storefront e-commerce application gif",
+  //   title: "JSJ Storefront",
+  //   description:
+  //     "JSJ is a fake e-commerce website that allows users to browse and search products. They could also add, remove, and change the quanitity of products in their shopping cart.",
+  //   tech: [
+  //     "NextJs",
+  //     "TypeScript",
+  //     "Cypress",
+  //     "Supabase",
+  //     "Tailwind",
+  //     "Github Actions",
+  //   ],
+  //   repo: "https://github.com/Jwensloff/JSJStorefront",
+  //   deploy: "https://jsj-storefront.vercel.app/",
+  // },
   {
     image: "/EscapeLink.gif",
     alt: "escape link application gif",
