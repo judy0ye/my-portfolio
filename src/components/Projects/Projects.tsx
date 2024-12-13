@@ -251,7 +251,7 @@ export default function Projects() {
   ));
 
   return (
-    <>
+    <section>
       <Title px={20} pt={24} order={2} fz={{ base: "sm", xs: "xl" }}>
         Some of My Projects
       </Title>
@@ -293,6 +293,6 @@ export default function Projects() {
           {slides}
         </Carousel>
       </Container>
-    </>
+    </section>
   );
 }

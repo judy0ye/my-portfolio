@@ -6,7 +6,7 @@ import classes from "./About.module.css";
 
 export default function About() {
   return (
-    <>
+    <section>
       <Title
         className={classes.title}
         pt={32}
@@ -18,7 +18,7 @@ export default function About() {
         About Me
       </Title>
       <Group
-        justify="space-between"
+        justify="space-around"
         wrap="nowrap"
         className={classes.aboutContainer}
       >
@@ -61,6 +61,6 @@ export default function About() {
           </Container>
         </Slide>
       </Group>
-    </>
+    </section>
   );
 }

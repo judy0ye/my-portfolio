@@ -1,5 +1,6 @@
 .svg {
-  max-width: 1440px;
+  width: 100%;
+  margin: auto;
 
   @media (max-width: $mantine-breakpoint-xl) {
     width: 1300px;
