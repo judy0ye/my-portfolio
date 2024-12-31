@@ -47,7 +47,7 @@ export default function Footer() {
       <Group pr={16} gap={4}>
         <Text fz={{ base: "xs", xs: "md" }}>Handmade by Judy Ye</Text>
         <IconCopyright className={classes.copyright} />
-        <Text fz={{ base: "xs", xs: "md" }}>2024</Text>
+        <Text fz={{ base: "xs", xs: "md" }}>{new Date().getFullYear()}</Text>
       </Group>
     </Flex>
   );
